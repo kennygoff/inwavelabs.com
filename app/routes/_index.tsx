@@ -1,16 +1,15 @@
 import type { V2_MetaFunction } from "@remix-run/node";
-import { Link } from "@remix-run/react";
 
 export const meta: V2_MetaFunction = () => {
   return [
-    { title: "New Remix App" },
+    { title: "Inwave Labs" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
 
 export default function Index() {
   return (
-    <div className="text-sm px-6 py-12 leading-6 font-mono h-screen overflow-y-scroll md:text-md md:leading-9 md:px-8 md:py-12 mx-auto max-w-5xl">
+    <div className="text-sm px-6 py-12 leading-6 font-mono h-screen overflow-y-scroll md:text-lg md:leading-9 md:px-8 md:py-12 mx-auto max-w-5xl">
       <main>
         <section className="mb-12">
           <h1 className="mb-4 md:mb-0">
@@ -46,7 +45,12 @@ export default function Index() {
         </section>
         <section className="mb-12">
           <h2 className="font-black">Get in touch</h2>
-          <p>kenny@inwavelabs.com</p>
+          <p>
+            <span aria-hidden className="select-none">
+              &rarr;{" "}
+            </span>
+            kenny@inwavelabs.com
+          </p>
         </section>
       </main>
       <footer>
