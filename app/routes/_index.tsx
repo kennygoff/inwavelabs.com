@@ -46,7 +46,7 @@ export default function Index() {
           <h2 className="font-black">Working principles</h2>
           <div
             role="list"
-            className="grid grid-cols-[20px_auto] md:grid-cols-[24px_auto] gap-x-2"
+            className="grid grid-cols-[18px_auto] md:grid-cols-[22px_auto] gap-x-2"
           >
             <div className="select-none" aria-hidden>
               1.
@@ -83,7 +83,7 @@ export default function Index() {
           <p>
             <span
               aria-hidden
-              className="select-none inline-block w-[20px] md:w-[24px] mr-2"
+              className="select-none inline-block w-[18px] md:w-[22px] mr-2"
             >
               &rarr;{" "}
             </span>
