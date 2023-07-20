@@ -30,12 +30,12 @@ const Fathom = () => {
       load(FATHOM_ID, {
         url: FATHOM_URL,
         includedDomains: [
-          "kennygoff.com",
-          "*.kennygoff.com",
-          "www.kennygoff.com",
+          "inwavelabs.com",
+          "*.inwavelabs.com",
+          "www.inwavelabs.com",
         ],
         excludedDomains: [
-          "kennygoff.netlify.app",
+          "inwavelabs.netlify.app",
           "localhost",
           "127.0.0.1",
           "localhost:3000",

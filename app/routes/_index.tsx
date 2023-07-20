@@ -26,13 +26,16 @@ export default function Index() {
           <section className="mb-9">
             <p className="mb-3 md:mb-0">
               Inwave Labs is run by{" "}
-              <a href="https://kennygoff.com" className="font-black underline">
+              <a
+                href="https://kennygoff.com"
+                className="font-black underline hover:text-white"
+              >
                 Kenny Goff
               </a>
               , a creative developer. We made the game{" "}
               <a
                 href="https://doubleturngame.com"
-                className="font-black underline"
+                className="font-black underline hover:text-white"
               >
                 Double Turn
               </a>
@@ -85,7 +88,10 @@ export default function Index() {
               >
                 &rarr;{" "}
               </span>
-              <a href="mailto:kenny@inwavelabs.com" className="underline">
+              <a
+                href="mailto:kenny@inwavelabs.com"
+                className="underline hover:text-white"
+              >
                 kenny@inwavelabs.com
               </a>
             </p>
@@ -94,7 +100,10 @@ export default function Index() {
         <footer>
           <p>Crafted in Hoboken, NJ</p>
           Made with <span style={{ fontFamily: "none" }}>♥︎</span> by{" "}
-          <a href="https://kennygoff.com" className="font-black underline">
+          <a
+            href="https://kennygoff.com"
+            className="font-black underline hover:text-white"
+          >
             Kenny Goff
           </a>
           <p>Inwave Labs, LLC © 2017-2023</p>
