@@ -3,13 +3,13 @@ import type { V2_MetaFunction } from "@remix-run/node";
 export const meta: V2_MetaFunction = () => {
   return [
     { title: "Inwave Labs" },
-    { name: "description", content: "Welcome to Remix!" },
+    { name: "description", content: "Inwave Labs" },
   ];
 };
 
 export default function Index() {
   return (
-    <div className="overflow-y-auto h-screen">
+    <div className="overflow-y-auto h-screen grid items-center">
       <div className="text-md leading-7 px-6 py-12 md:px-8 md:py-24 font-mono md:text-lg md:leading-9 mx-auto max-w-5xl">
         <main>
           <section className="mb-9">
@@ -29,21 +29,18 @@ export default function Index() {
               <a href="https://kennygoff.com" className="font-black underline">
                 Kenny Goff
               </a>
-              , a creative developer.
-            </p>
-            <p className="mb-3 md:mb-0">
-              We made the game{" "}
+              , a creative developer. We made the game{" "}
               <a
                 href="https://doubleturngame.com"
                 className="font-black underline"
               >
                 Double Turn
               </a>
-              , a pro-wrestling platform fighter.
+              , a pro-wrestling platform fighter. We are working on something
+              new!
             </p>
-            <p className="mb-4 md:mb-0">We are working on something new!</p>
           </section>
-          <section className="mb-9">
+          {/* <section className="mb-9">
             <h2 className="font-black">Working principles</h2>
             <div
               role="list"
@@ -78,7 +75,7 @@ export default function Index() {
               </div>
               <div role="listitem">Share in our victories</div>
             </div>
-          </section>
+          </section> */}
           <section className="mb-9">
             <h2 className="font-black">Get in touch</h2>
             <p>
@@ -88,7 +85,9 @@ export default function Index() {
               >
                 &rarr;{" "}
               </span>
-              kenny@inwavelabs.com
+              <a href="mailto:kenny@inwavelabs.com" className="underline">
+                kenny@inwavelabs.com
+              </a>
             </p>
           </section>
         </main>

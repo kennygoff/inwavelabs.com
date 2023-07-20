@@ -7,6 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import Fathom from "~/components/fathom";
 
 import styles from "./tailwind.css";
 
@@ -44,6 +45,7 @@ export default function App() {
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
+        <Fathom />
       </body>
     </html>
   );
