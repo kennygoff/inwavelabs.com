@@ -106,7 +106,7 @@ export default function Index() {
           >
             Kenny Goff
           </a>
-          <p>Inwave Labs, LLC © 2017-2023</p>
+          <p>Inwave Labs, LLC © 2017-2024</p>
         </footer>
       </div>
     </div>
