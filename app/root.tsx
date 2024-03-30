@@ -1,7 +1,6 @@
 import type { LinksFunction } from "@remix-run/node";
 import {
   Links,
-  LiveReload,
   Meta,
   Outlet,
   Scripts,
@@ -9,7 +8,7 @@ import {
 } from "@remix-run/react";
 import Fathom from "~/components/fathom";
 
-import styles from "./tailwind.css";
+import styles from "./tailwind.css?url";
 
 export const links: LinksFunction = () => [{ rel: "stylesheet", href: styles }];
 
@@ -44,7 +43,6 @@ export default function App() {
         <Outlet />
         <ScrollRestoration />
         <Scripts />
-        <LiveReload />
         <Fathom />
       </body>
     </html>
