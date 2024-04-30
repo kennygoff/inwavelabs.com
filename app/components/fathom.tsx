@@ -33,11 +33,7 @@ const Fathom = ({ fathomId, domain, includeWildcard }: FathomProps) => {
         includedDomains,
       });
       fathom.current.isLoaded = true;
-    }
-  }, []);
-
-  useEffect(() => {
-    if (fathom.current.isLoaded) {
+    } else {
       trackPageview();
     }
   }, [location.pathname, location.search]);
