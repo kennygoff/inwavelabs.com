@@ -6,7 +6,9 @@
     "dev": "remix vite:dev",
     "build": "remix vite:build",
     "start": "netlify serve",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@netlify/edge-functions": "^2.5.1",
