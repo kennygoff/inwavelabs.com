@@ -3,7 +3,11 @@ import type { MetaFunction } from "@remix-run/node";
 export const meta: MetaFunction = () => {
   return [
     { title: "Inwave Labs" },
-    { name: "description", content: "Inwave Labs" },
+    {
+      name: "description",
+      content:
+        "Inwave Labs is an independent software company. We craft software of all kinds — apps, games, tools and websites.",
+    },
   ];
 };
 
