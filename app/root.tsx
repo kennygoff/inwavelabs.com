@@ -43,7 +43,7 @@ export default function App() {
         <Outlet />
         <ScrollRestoration />
         <Scripts />
-        <Fathom />
+        <Fathom fathomId="DAGHWZCL" domain="inwavelabs.com" includeWildcard />
       </body>
     </html>
   );
